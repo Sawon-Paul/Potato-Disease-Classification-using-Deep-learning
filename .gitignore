@@ -1,20 +1,8 @@
-# Ignore everything by default
-*
-
-# But not these:
-!.gitignore
-!training/
-!training/**
-
-# Byte-compiled / optimized / DLL files
+.venv/
 __pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
+*.pyc
+*.pyo
+*.pyd
 .Python
 build/
 develop-eggs/
@@ -77,7 +65,6 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-training/.ipynb_checkpoints/
 
 # pyenv
 .python-version
@@ -112,12 +99,12 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# Pyre type checker
+.pyre/
+
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
 # OS
 .DS_Store
@@ -127,21 +114,4 @@ Thumbs.db
 checkpoint
 *.ckpt
 *.pb
-saved_model.pb
-variables/
-
-# Keras
-*.h5
-*.hdf5
-
-# Model files
-# saved_models/
-# training/
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-logs/
-*.log
+saved_models/
