@@ -1,3 +1,11 @@
+# Ignore everything by default
+*
+
+# But not these:
+!.gitignore
+!training/
+!training/**
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -26,8 +34,6 @@ wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -71,6 +77,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+training/.ipynb_checkpoints/
 
 # pyenv
 .python-version
@@ -127,7 +134,7 @@ variables/
 *.h5
 *.hdf5
 
-# Model files (if you want to exclude large model files)
+# Model files
 # saved_models/
 # training/
 
