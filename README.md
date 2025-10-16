@@ -1,0 +1,2 @@
+Here is the complete project of Potato Disease Classification. You have to create a venv for this project and install all the required components after activate the venv. All test and training data(pictures) are give in this project and the dataset is taken from kaggle.Api is also created, you have to connect the local host with postman and upload any picture related to this. There are 3 classes: Early blight, Late blight and healthy.
+The documantation is on the Potato_Disease_Classification.pdf
